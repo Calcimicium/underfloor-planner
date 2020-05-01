@@ -1,0 +1,19 @@
+{
+	"compilerOptions": {
+		"baseUrl": "../src",
+		"esModuleInterop": true,
+		"module": "CommonJS",
+		"paths": {
+		},
+		"sourceMap": true,
+		"strict": true,
+		"strictBindCallApply": false,
+		"target": "ES6"
+	},
+	"exclude": [
+		"node_modules"
+	],
+	"files": [
+		"../src/UnderfloorPlanner.ts"
+	]
+}

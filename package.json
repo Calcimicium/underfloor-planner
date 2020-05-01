@@ -1,0 +1,28 @@
+{
+  "name": "underfloor-planner",
+  "version": "1.0.0",
+  "description": "A web application providing tools to plan underfloor heating and cooling.",
+  "main": "dist/UnderfloorPlanner.js",
+  "scripts": {
+    "build": "cross-env TS_NODE_PROJECT=config/tsconfig.webpack.json webpack --config config/webpack.config.ts",
+    "start-dev": "cross-env TS_NODE_PROJECT=config/tsconfig.webpack.json webpack-dev-server --config config/webpack.devserver.config.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Dorian Herlory (https://laboiteadodo.fr)",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/html-webpack-plugin": "^3.2.2",
+    "@types/webpack": "^4.41.12",
+    "@types/webpack-dev-server": "^3.10.1",
+    "cross-env": "^7.0.2",
+    "html-webpack-plugin": "^4.3.0",
+    "ts-loader": "^7.0.2",
+    "ts-node": "^8.9.1",
+    "tsconfig-paths": "^3.9.0",
+    "tsconfig-paths-webpack-plugin": "^3.2.0",
+    "typescript": "^3.8.3",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.10.3"
+  }
+}

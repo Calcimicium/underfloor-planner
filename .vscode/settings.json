@@ -1,0 +1,8 @@
+{
+	"javascript.preferences.quoteStyle": "single",
+	"typescript.preferences.quoteStyle": "single",
+	"editor.insertSpaces": false,
+	"editor.tabSize": 2,
+	"files.trimFinalNewlines": true,
+	"files.trimTrailingWhitespace": true
+}

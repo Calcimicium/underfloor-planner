@@ -1,0 +1,12 @@
+{
+	"compilerOptions": {
+		"esModuleInterop": true,
+		"module": "commonjs",
+		"strict": true,
+		"target": "es6"
+	},
+	"files": [
+		"webpack.config.ts",
+		"webpack.devserver.config.ts"
+	]
+}
